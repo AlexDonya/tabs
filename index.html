@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JS lesson 4 Tabs</title>
+</head>
+<body>
+    <h1>TABS</h1>
+    <div class="tabs-block-wrapper">
+        <div id="tabs">
+            <div class="tab-btn active" data-btn="1">1</div>
+            <div class="tab-btn" data-btn="2">2</div>
+            <div class="tab-btn" data-btn="3">3</div>
+        </div>
+        <div id="contents">
+            <div class="content active" data-content="1">Content 1</div>
+            <div class="content" data-content="2">Content 2</div>
+            <div class="content" data-content="3">
+                Content 3
+                <div class="tab-three-wrapper">
+                    <div id="tabs-three">
+                        <div class="tab-btn-three active" data-btn="1">1</div>
+                        <div class="tab-btn-three" data-btn="2">2</div>
+                    </div>
+                    <div id="contents-three">
+                        <div class="content-three active" data-content="1">Content 1</div>
+                        <div class="content-three" data-content="2">Content 2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
